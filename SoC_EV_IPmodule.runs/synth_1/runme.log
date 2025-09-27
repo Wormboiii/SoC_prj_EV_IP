@@ -1,0 +1,1299 @@
+
+*** Running vivado
+    with args -log SoC_EV_BD_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source SoC_EV_BD_wrapper.tcl
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sat Sep 27 12:26:00 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source SoC_EV_BD_wrapper.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_TIMER_SEC_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_EXTERNAL_FND_CNTR_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_EXTERNAL_LED_CNTR_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_PWM_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_PHOTO_INT_CNTR_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_EXTERNAL_BTN_CNTR_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wonhyeok/ip_repo/CustomIP_STEPPER_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/wonhyeok/data/XILINX/2025.1/Vivado/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental /home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.srcs/utils_1/imports/synth_1/button_cntr.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.srcs/utils_1/imports/synth_1/button_cntr.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top SoC_EV_BD_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 59617
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2150.508 ; gain = 394.027 ; free physical = 16358 ; free virtual = 26227
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:95]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:96]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:97]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:98]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:99]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:100]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:101]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:102]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:103]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_7/synth/bd_cb0a_aroutsw_0.sv:104]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:84]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:85]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:86]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:87]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:88]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:89]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:90]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:91]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:92]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:93]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:94]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:95]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:96]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:97]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:98]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:99]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:100]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:101]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:102]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_8/synth/bd_cb0a_routsw_0.sv:103]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:95]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:96]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:97]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:98]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:99]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:100]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:101]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:102]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:103]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_9/synth/bd_cb0a_awoutsw_0.sv:104]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:95]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:96]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:97]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:98]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:99]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:100]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:101]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:102]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:103]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_10/synth/bd_cb0a_woutsw_0.sv:104]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:84]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:85]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:86]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:87]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:88]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:89]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:90]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:91]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:92]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:93]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:94]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:95]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:96]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:97]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:98]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:99]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:100]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:101]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:102]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_11/synth/bd_cb0a_boutsw_0.sv:103]
+WARNING: [Synth 8-6901] identifier 'btn_out' is used before its declaration [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/daed/hdl/CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI.v:344]
+WARNING: [Synth 8-6901] identifier 'signal_out' is used before its declaration [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/5a8b/hdl/CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI.v:344]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'edge_detector_p' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/af28/4282/pwm_source.v:46]
+INFO: [Synth 8-9937] previous definition of design element 'edge_detector_p' is here [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/dfc5/4282/stepper_source.v:45]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'edge_detector_p' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/8adc/4282/sr_led_source.v:46]
+INFO: [Synth 8-9937] previous definition of design element 'edge_detector_p' is here [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/af28/4282/pwm_source.v:46]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'edge_detector_p' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/3abe/4282/sr_fnd_source.v:46]
+INFO: [Synth 8-9937] previous definition of design element 'edge_detector_p' is here [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/8adc/4282/sr_led_source.v:46]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'sn74hc595_cntr' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/3abe/4282/sr_fnd_source.v:117]
+INFO: [Synth 8-9937] previous definition of design element 'sn74hc595_cntr' is here [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/8adc/4282/sr_led_source.v:118]
+WARNING: [Synth 8-6901] identifier 'timer_done' is used before its declaration [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/e7f1/hdl/CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI.v:345]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/daed/hdl/CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI.v:212]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/5a8b/hdl/CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI.v:212]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/e7f1/hdl/CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI.v:213]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[1].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[2].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[3].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[4].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[5].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[6].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[7].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[8].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[9].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[10].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[11].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[12].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[13].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[14].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[15].GPIO_DBus_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.gpio_Data_In_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:485]
+WARNING: [Synth 8-6014] Unused sequential element ro_a_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/67c0/hdl/axi_iic_v2_1_vh_rfs.vhd:2219]
+WARNING: [Synth 8-6014] Unused sequential element sda_cout_reg_d1_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/67c0/hdl/axi_iic_v2_1_vh_rfs.vhd:3610]
+WARNING: [Synth 8-6014] Unused sequential element gen_stop_and_scl_hi_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/67c0/hdl/axi_iic_v2_1_vh_rfs.vhd:3831]
+WARNING: [Synth 8-6014] Unused sequential element dynamic_MSMS_d_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/67c0/hdl/axi_iic_v2_1_vh_rfs.vhd:5228]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_1BV295W does not have driver. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/synth/bd_cb0a.v:4340]
+WARNING: [Synth 8-6014] Unused sequential element is_read_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2447]
+WARNING: [Synth 8-6014] Unused sequential element is_write_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2448]
+WARNING: [Synth 8-6014] Unused sequential element ext_nm_brk_hold_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:67868]
+WARNING: [Synth 8-6014] Unused sequential element of_Take_Interrupt_hold_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:68668]
+WARNING: [Synth 8-6014] Unused sequential element of_Take_Ext_BRK_hold_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:68682]
+WARNING: [Synth 8-6014] Unused sequential element Eval_Sel_CSR_Signal_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69754]
+WARNING: [Synth 8-6014] Unused sequential element ex_is_mret_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69856]
+WARNING: [Synth 8-6014] Unused sequential element ex_is_sret_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69857]
+WARNING: [Synth 8-6014] Unused sequential element of_status_mie_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69953]
+WARNING: [Synth 8-6014] Unused sequential element of_status_mbe_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69954]
+WARNING: [Synth 8-6014] Unused sequential element ex_Ext_NM_BRK_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69991]
+WARNING: [Synth 8-6014] Unused sequential element ex_Ext_BRK_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69992]
+WARNING: [Synth 8-6014] Unused sequential element ex_atomic_Instruction_Pair_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69941]
+WARNING: [Synth 8-6014] Unused sequential element ex_atomic_Instruction_Pair_hold_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69995]
+WARNING: [Synth 8-6014] Unused sequential element FSL_Will_Break_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69996]
+WARNING: [Synth 8-6014] Unused sequential element FSL_Will_Break_No_Dbg_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69997]
+WARNING: [Synth 8-6014] Unused sequential element ex_is_min_max_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70836]
+WARNING: [Synth 8-6014] Unused sequential element ex_fpu_writes_in_wb_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70995]
+WARNING: [Synth 8-6014] Unused sequential element ex_fpu_write_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:71326]
+WARNING: [Synth 8-6014] Unused sequential element ex3_gpr_load_write_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:71327]
+WARNING: [Synth 8-6014] Unused sequential element ex3_gpr_sc_write_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:71328]
+WARNING: [Synth 8-6014] Unused sequential element ex3_fpu_load_write_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:71329]
+WARNING: [Synth 8-6014] Unused sequential element ex_priv_mode_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72018]
+WARNING: [Synth 8-6014] Unused sequential element ex_databus_eval_addr_cbo_raw_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72096]
+WARNING: [Synth 8-6014] Unused sequential element ex_write_icache_stall_1_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72212]
+WARNING: [Synth 8-6014] Unused sequential element Has_MEM_3.mem_1st_cycle_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72396]
+WARNING: [Synth 8-6014] Unused sequential element No_Short_Pipe_3.mem_is_fpu_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72725]
+WARNING: [Synth 8-6014] Unused sequential element No_Short_Pipe_3.mem_is_store_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72853]
+WARNING: [Synth 8-6014] Unused sequential element No_Short_Pipe_3.mem_is_sign_byte_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72854]
+WARNING: [Synth 8-6014] Unused sequential element mem_priv_mode_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72946]
+WARNING: [Synth 8-6014] Unused sequential element ex_status_mie_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:73713]
+WARNING: [Synth 8-6014] Unused sequential element ex_status_mbe_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:73714]
+INFO: [Synth 8-4471] merging register 'EX_FPU_Load_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70991]
+INFO: [Synth 8-4471] merging register 'ex_is_fpu_instr_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69883]
+INFO: [Synth 8-4471] merging register 'ex_fpu_writes_in_ex_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70993]
+INFO: [Synth 8-4471] merging register 'ex_fpu_writes_in_mem_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70994]
+INFO: [Synth 8-4471] merging register 'ex_start_div_i_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:71073]
+INFO: [Synth 8-4471] merging register 'ex_Write_ICache_fence_i_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72093]
+INFO: [Synth 8-4471] merging register 'ex_Write_DCache_fence_i_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72094]
+INFO: [Synth 8-4471] merging register 'ex_Write_DCache_raw_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72095]
+INFO: [Synth 8-4471] merging register 'ex_Write_DCache_flush_i_reg' into 'ex_start_fpu_i_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72097]
+WARNING: [Synth 8-6014] Unused sequential element EX_FPU_Load_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70991]
+WARNING: [Synth 8-6014] Unused sequential element ex_is_fpu_instr_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:69883]
+WARNING: [Synth 8-6014] Unused sequential element ex_fpu_writes_in_ex_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70993]
+WARNING: [Synth 8-6014] Unused sequential element ex_fpu_writes_in_mem_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:70994]
+WARNING: [Synth 8-6014] Unused sequential element ex_start_div_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:71073]
+WARNING: [Synth 8-6014] Unused sequential element ex_Write_ICache_fence_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72093]
+WARNING: [Synth 8-6014] Unused sequential element ex_Write_DCache_fence_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72094]
+WARNING: [Synth 8-6014] Unused sequential element ex_Write_DCache_raw_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72095]
+WARNING: [Synth 8-6014] Unused sequential element ex_Write_DCache_flush_i_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:72097]
+WARNING: [Synth 8-6014] Unused sequential element status_reg[SPP] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10073]
+WARNING: [Synth 8-6014] Unused sequential element status_reg[SPIE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10073]
+WARNING: [Synth 8-6014] Unused sequential element status_reg[SIE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10073]
+WARNING: [Synth 8-6014] Unused sequential element ie_reg[SEIE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10224]
+WARNING: [Synth 8-6014] Unused sequential element ie_reg[MEBE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10224]
+WARNING: [Synth 8-6014] Unused sequential element ie_reg[SEBE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10224]
+WARNING: [Synth 8-6014] Unused sequential element menvcfg_reg[FIOM] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10418]
+WARNING: [Synth 8-6014] Unused sequential element menvcfg_reg[CBIE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10418]
+WARNING: [Synth 8-6014] Unused sequential element menvcfg_reg[CBCFE] was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10418]
+WARNING: [Synth 8-6014] Unused sequential element stream_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:10483]
+WARNING: [Synth 8-6014] Unused sequential element Serial_Dbg_Intf.read_sel_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:103226]
+WARNING: [Synth 8-6014] Unused sequential element Serial_Dbg_Intf.dmactive_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:104104]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_prv_first_cycle_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:105044]
+WARNING: [Synth 8-6014] Unused sequential element saved_reset_mode_dbg_halt_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:105654]
+WARNING: [Synth 8-6014] Unused sequential element Performance_Debug_Control.step_continue_hold_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:105423]
+INFO: [Synth 8-4471] merging register 'Dbg_CSR_Priv_Mode_reg[1:0]' into 'dcsr_prv_reg[1:0]' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:105045]
+WARNING: [Synth 8-6014] Unused sequential element Dbg_CSR_Priv_Mode_reg was removed.  [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:105045]
+WARNING: [Synth 8-7129] Port src_clk in module xpm_cdc_single is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[14] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[13] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[12] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[11] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[10] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[7] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[6] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[5] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[4] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized25 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized24 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized23 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized22 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized20 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:50 . Memory (MB): peak = 4393.875 ; gain = 2637.395 ; free physical = 8172 ; free virtual = 18062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 4393.875 ; gain = 2637.395 ; free physical = 8211 ; free virtual = 18101
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 4393.875 ; gain = 2637.395 ; free physical = 8211 ; free virtual = 18101
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 4393.875 ; gain = 0.000 ; free physical = 8290 ; free virtual = 18176
+INFO: [Netlist 29-17] Analyzing 448 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_proc_sys_reset_0_0/SoC_EV_BD_proc_sys_reset_0_0_board.xdc] for cell 'SoC_EV_BD_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_proc_sys_reset_0_0/SoC_EV_BD_proc_sys_reset_0_0_board.xdc] for cell 'SoC_EV_BD_i/proc_sys_reset_0/U0'
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_clk_wiz_0/SoC_EV_BD_clk_wiz_0_board.xdc] for cell 'SoC_EV_BD_i/clk_wiz/inst'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_clk_wiz_0/SoC_EV_BD_clk_wiz_0_board.xdc] for cell 'SoC_EV_BD_i/clk_wiz/inst'
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_clk_wiz_0/SoC_EV_BD_clk_wiz_0.xdc] for cell 'SoC_EV_BD_i/clk_wiz/inst'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_clk_wiz_0/SoC_EV_BD_clk_wiz_0.xdc] for cell 'SoC_EV_BD_i/clk_wiz/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_clk_wiz_0/SoC_EV_BD_clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_microblaze_riscv_0_0/SoC_EV_BD_microblaze_riscv_0_0.xdc] for cell 'SoC_EV_BD_i/microblaze_riscv_0/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_microblaze_riscv_0_0/SoC_EV_BD_microblaze_riscv_0_0.xdc] for cell 'SoC_EV_BD_i/microblaze_riscv_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_microblaze_riscv_0_0/SoC_EV_BD_microblaze_riscv_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_uartlite_0_0/SoC_EV_BD_axi_uartlite_0_0_board.xdc] for cell 'SoC_EV_BD_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_uartlite_0_0/SoC_EV_BD_axi_uartlite_0_0_board.xdc] for cell 'SoC_EV_BD_i/axi_uartlite_0/U0'
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_1/bd_cb0a_psr_aclk_0_board.xdc] for cell 'SoC_EV_BD_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/bd_0/ip/ip_1/bd_cb0a_psr_aclk_0_board.xdc] for cell 'SoC_EV_BD_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/smartconnect.xdc] for cell 'SoC_EV_BD_i/axi_smc/inst'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_smc_0/smartconnect.xdc] for cell 'SoC_EV_BD_i/axi_smc/inst'
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_gpio_0_0/SoC_EV_BD_axi_gpio_0_0_board.xdc] for cell 'SoC_EV_BD_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_gpio_0_0/SoC_EV_BD_axi_gpio_0_0_board.xdc] for cell 'SoC_EV_BD_i/axi_gpio_0/U0'
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_iic_0_0/SoC_EV_BD_axi_iic_0_0_board.xdc] for cell 'SoC_EV_BD_i/axi_iic_0/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_axi_iic_0_0/SoC_EV_BD_axi_iic_0_0_board.xdc] for cell 'SoC_EV_BD_i/axi_iic_0/U0'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.srcs/constrs_1/imports/basys_datasheet/Basys-3-Master.xdc]
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.srcs/constrs_1/imports/basys_datasheet/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.srcs/constrs_1/imports/basys_datasheet/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_mdm_1_0/SoC_EV_BD_mdm_1_0.xdc] for cell 'SoC_EV_BD_i/mdm_1/U0'
+Finished Parsing XDC File [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_mdm_1_0/SoC_EV_BD_mdm_1_0.xdc] for cell 'SoC_EV_BD_i/mdm_1/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ip/SoC_EV_BD_mdm_1_0/SoC_EV_BD_mdm_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/media/wonhyeok/data/XILINX/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/media/wonhyeok/data/XILINX/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_EV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_EV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 152 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4457.906 ; gain = 0.000 ; free physical = 8316 ; free virtual = 18203
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 276 instances were transformed.
+  BUFGCE_1 => BUFGCTRL: 2 instances
+  FDR => FDRE: 40 instances
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 5 instances
+  FDS => FDSE: 3 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 48 instances
+  MUXCY_L => MUXCY: 158 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  SRL16 => SRL16E: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.22 . Memory (MB): peak = 4457.941 ; gain = 0.000 ; free physical = 8312 ; free virtual = 18199
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:13 ; elapsed = 00:01:31 . Memory (MB): peak = 4457.941 ; gain = 2701.461 ; free physical = 8283 ; free virtual = 18171
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:13 ; elapsed = 00:01:31 . Memory (MB): peak = 4465.910 ; gain = 2709.430 ; free physical = 8283 ; free virtual = 18171
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:32 . Memory (MB): peak = 4465.910 ; gain = 2709.430 ; free physical = 8284 ; free virtual = 18171
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint /home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.srcs/utils_1/imports/synth_1/button_cntr.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:01:16 ; elapsed = 00:01:35 . Memory (MB): peak = 4465.910 ; gain = 2709.430 ; free physical = 8211 ; free virtual = 18116
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:01:16 ; elapsed = 00:01:35 . Memory (MB): peak = 4465.910 ; gain = 2709.430 ; free physical = 8211 ; free virtual = 18116
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_EXTERNAL_FND_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_EXTERNAL_FND_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'led_cntr'
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_PWM_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_PWM_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'stepper_cntr'
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_STEPPER_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_STEPPER_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'scl_state_reg' in module 'iic_control'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'iic_control'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.w_state_reg' in module 'sc_mmu_v1_0_15_top'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.r_state_reg' in module 'sc_mmu_v1_0_15_top'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'Test_Access_Port.state_reg' in module 'JTAG_CONTROL'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_EXTERNAL_FND_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_EXTERNAL_FND_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                     OFF |                       0000000001 |                       0000000001
+                      ON |                       1000000000 |                       1000000000
+             S_1000_0000 |                       0100000000 |                       0100000000
+             S_0100_0000 |                       0010000000 |                       0010000000
+             S_0010_0000 |                       0001000000 |                       0001000000
+             S_0001_0000 |                       0000100000 |                       0000100000
+             S_0000_1000 |                       0000010000 |                       0000010000
+             S_0000_0100 |                       0000001000 |                       0000001000
+             S_0000_0010 |                       0000000100 |                       0000000100
+             S_0000_0001 |                       0000000010 |                       0000000010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'led_cntr'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_PWM_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_PWM_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                            00001 |                            00001
+                  S_0001 |                            00010 |                            00010
+                  S_1000 |                            10000 |                            10000
+                  S_0100 |                            01000 |                            01000
+                  S_0010 |                            00100 |                            00100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'stepper_cntr'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_STEPPER_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_STEPPER_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                  header |                              101 |                              001
+              ack_header |                              110 |                              010
+                rcv_data |                              100 |                              011
+                ack_data |                              011 |                              100
+               xmit_data |                              010 |                              101
+                wait_ack |                              001 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'iic_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                scl_idle |                       0000000001 |                             0000
+              start_wait |                       0000000010 |                             0001
+                   start |                       0000000100 |                             0010
+              start_edge |                       0000001000 |                             0011
+            scl_low_edge |                       0000010000 |                             0100
+                 scl_low |                       0000100000 |                             0101
+           scl_high_edge |                       0001000000 |                             0110
+                scl_high |                       0010000000 |                             0111
+               stop_edge |                       0100000000 |                             1000
+               stop_wait |                       1000000000 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'scl_state_reg' using encoding 'one-hot' in module 'iic_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 W_STALL |                               01 | 00000000000000000000000000000001
+               W_PENDING |                               10 | 00000000000000000000000000000010
+                W_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.w_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_15_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 R_STALL |                               01 | 00000000000000000000000000000001
+               R_PENDING |                               10 | 00000000000000000000000000000010
+                R_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.r_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_15_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sm_idle |                             0010 |                               00
+                 sm_read |                             1000 |                               01
+                sm_write |                             0100 |                               10
+                 sm_resp |                             0001 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                tl_reset |                 0000000000000001 |                             0000
+                    idle |                 0000000000000010 |                             0001
+               select_dr |                 0000000000000100 |                             0010
+               select_ir |                 0000000000001000 |                             1001
+              capture_ir |                 0000000000010000 |                             1010
+                shift_ir |                 0000000000100000 |                             1011
+                exit1_ir |                 0000000001000000 |                             1100
+                pause_ir |                 0000000010000000 |                             1101
+                exit2_ir |                 0000000100000000 |                             1110
+               update_ir |                 0000001000000000 |                             1111
+              capture_dr |                 0000010000000000 |                             0011
+                shift_dr |                 0000100000000000 |                             0100
+                exit1_dr |                 0001000000000000 |                             0101
+                pause_dr |                 0010000000000000 |                             0110
+                exit2_dr |                 0100000000000000 |                             0111
+               update_dr |                 1000000000000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Test_Access_Port.state_reg' using encoding 'one-hot' in module 'JTAG_CONTROL'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:23 ; elapsed = 00:01:42 . Memory (MB): peak = 4465.910 ; gain = 2709.430 ; free physical = 8284 ; free virtual = 18190
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 6     
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 5     
+	   2 Input    4 Bit       Adders := 68    
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 23    
+	   3 Input    1 Bit       Adders := 26    
+	   2 Input    1 Bit       Adders := 5     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 431   
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	             4096 Bit    Registers := 1     
+	             2178 Bit    Registers := 4     
+	              178 Bit    Registers := 2     
+	               92 Bit    Registers := 1     
+	               74 Bit    Registers := 1     
+	               64 Bit    Registers := 2     
+	               47 Bit    Registers := 11    
+	               42 Bit    Registers := 2     
+	               33 Bit    Registers := 11    
+	               32 Bit    Registers := 100   
+	               31 Bit    Registers := 1     
+	               29 Bit    Registers := 1     
+	               28 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 8     
+	               14 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	               10 Bit    Registers := 11    
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 13    
+	                7 Bit    Registers := 7     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 91    
+	                4 Bit    Registers := 84    
+	                3 Bit    Registers := 158   
+	                2 Bit    Registers := 111   
+	                1 Bit    Registers := 1626  
++---Muxes : 
+	   2 Input 2178 Bit        Muxes := 2     
+	   2 Input  150 Bit        Muxes := 24    
+	   2 Input   64 Bit        Muxes := 21    
+	   2 Input   53 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 107   
+	   8 Input   32 Bit        Muxes := 53    
+	   4 Input   32 Bit        Muxes := 9     
+	   5 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   27 Bit        Muxes := 2     
+	  16 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 16    
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 6     
+	  11 Input   10 Bit        Muxes := 1     
+	   3 Input   10 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 18    
+	   4 Input   10 Bit        Muxes := 7     
+	  10 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 2     
+	   3 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 10    
+	   7 Input    8 Bit        Muxes := 2     
+	  11 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 13    
+	   2 Input    6 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 8     
+	   6 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 2     
+	  16 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 22    
+	   3 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 4     
+	   7 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 18    
+	  21 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 173   
+	   4 Input    2 Bit        Muxes := 6     
+	   3 Input    2 Bit        Muxes := 19    
+	   2 Input    1 Bit        Muxes := 720   
+	   6 Input    1 Bit        Muxes := 13    
+	   4 Input    1 Bit        Muxes := 17    
+	   7 Input    1 Bit        Muxes := 11    
+	   3 Input    1 Bit        Muxes := 106   
+	   8 Input    1 Bit        Muxes := 2     
+	  11 Input    1 Bit        Muxes := 3     
+	  10 Input    1 Bit        Muxes := 10    
+	  16 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3917] design sc_mmu_v1_0_15_top__GB0 has port m_axi_awid[0] driven by constant 0
+INFO: [Synth 8-3917] design sc_mmu_v1_0_15_top__GB0 has port m_axi_arid[0] driven by constant 0
+INFO: [Synth 8-3917] design sc_mmu_v1_0_15_top__GB0 has port s_axi_bid[0] driven by constant 0
+INFO: [Synth 8-3917] design sc_mmu_v1_0_15_top__GB0 has port s_axi_rid[0] driven by constant 0
+INFO: [Synth 8-3917] design sc_mmu_v1_0_15_top__GB0 has port m_axi_wuser[13] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.w_enable_reg' (FDRE) to 'gen_endpoint.w_cnt_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.w_cnt_reg[1]' (FDRE) to 'gen_endpoint.w_cnt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.w_cnt_reg[2]' (FDRE) to 'gen_endpoint.w_cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.w_cnt_reg[3]' (FDRE) to 'gen_endpoint.w_cnt_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.w_cnt_reg[4]' (FDRE) to 'gen_endpoint.b_cnt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.b_cnt_reg[1]' (FDRE) to 'gen_endpoint.b_cnt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.b_cnt_reg[2]' (FDRE) to 'gen_endpoint.b_cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.b_cnt_reg[3]' (FDRE) to 'gen_endpoint.b_cnt_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_endpoint.b_cnt_reg[4] )
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.r_cnt_reg[3]' (FDRE) to 'gen_endpoint.r_cnt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.r_cnt_reg[4]' (FDRE) to 'gen_endpoint.r_cnt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gen_endpoint.r_cnt_reg[2]' (FDRE) to 'gen_endpoint.r_cnt_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_endpoint.r_cnt_reg[1] )
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[13]' (FDE) to 'ar_reg_stall/skid_buffer_reg[14]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[14]' (FDE) to 'ar_reg_stall/skid_buffer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[15]' (FDE) to 'ar_reg_stall/skid_buffer_reg[16]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[16]' (FDE) to 'ar_reg_stall/skid_buffer_reg[17]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[17]' (FDE) to 'ar_reg_stall/skid_buffer_reg[18]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[18]' (FDE) to 'ar_reg_stall/skid_buffer_reg[19]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[19]' (FDE) to 'ar_reg_stall/skid_buffer_reg[20]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[20]' (FDE) to 'ar_reg_stall/skid_buffer_reg[21]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[21]' (FDE) to 'ar_reg_stall/skid_buffer_reg[22]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[22]' (FDE) to 'ar_reg_stall/skid_buffer_reg[23]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[23]' (FDE) to 'ar_reg_stall/skid_buffer_reg[24]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[24]' (FDE) to 'ar_reg_stall/skid_buffer_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[25]' (FDE) to 'ar_reg_stall/skid_buffer_reg[26]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[26]' (FDE) to 'ar_reg_stall/skid_buffer_reg[27]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[27]' (FDE) to 'ar_reg_stall/skid_buffer_reg[28]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[28]' (FDE) to 'ar_reg_stall/skid_buffer_reg[29]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[29]' (FDE) to 'ar_reg_stall/skid_buffer_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[30]' (FDE) to 'ar_reg_stall/skid_buffer_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[31]' (FDE) to 'ar_reg_stall/skid_buffer_reg[32]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[32]' (FDE) to 'ar_reg_stall/skid_buffer_reg[33]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[33]' (FDE) to 'ar_reg_stall/skid_buffer_reg[34]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[34]' (FDE) to 'ar_reg_stall/skid_buffer_reg[35]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[35]' (FDE) to 'ar_reg_stall/skid_buffer_reg[36]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[36]' (FDE) to 'ar_reg_stall/skid_buffer_reg[37]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[37]' (FDE) to 'ar_reg_stall/skid_buffer_reg[38]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[38]' (FDE) to 'ar_reg_stall/skid_buffer_reg[39]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[39]' (FDE) to 'ar_reg_stall/skid_buffer_reg[40]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[40]' (FDE) to 'ar_reg_stall/skid_buffer_reg[41]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[41]' (FDE) to 'ar_reg_stall/skid_buffer_reg[42]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[42]' (FDE) to 'ar_reg_stall/skid_buffer_reg[43]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[43]' (FDE) to 'ar_reg_stall/skid_buffer_reg[44]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[44]' (FDE) to 'ar_reg_stall/skid_buffer_reg[45]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[45]' (FDE) to 'ar_reg_stall/skid_buffer_reg[46]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[46]' (FDE) to 'ar_reg_stall/skid_buffer_reg[47]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[47]' (FDE) to 'ar_reg_stall/skid_buffer_reg[48]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[48]' (FDE) to 'ar_reg_stall/skid_buffer_reg[49]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[49]' (FDE) to 'ar_reg_stall/skid_buffer_reg[50]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[50]' (FDE) to 'ar_reg_stall/skid_buffer_reg[51]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[51]' (FDE) to 'ar_reg_stall/skid_buffer_reg[52]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[52]' (FDE) to 'ar_reg_stall/skid_buffer_reg[53]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[53]' (FDE) to 'ar_reg_stall/skid_buffer_reg[54]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[54]' (FDE) to 'ar_reg_stall/skid_buffer_reg[55]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[55]' (FDE) to 'ar_reg_stall/skid_buffer_reg[56]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[56]' (FDE) to 'ar_reg_stall/skid_buffer_reg[57]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[57]' (FDE) to 'ar_reg_stall/skid_buffer_reg[58]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[58]' (FDE) to 'ar_reg_stall/skid_buffer_reg[59]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[59]' (FDE) to 'ar_reg_stall/skid_buffer_reg[60]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[60]' (FDE) to 'ar_reg_stall/skid_buffer_reg[61]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[61]' (FDE) to 'ar_reg_stall/skid_buffer_reg[62]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[62]' (FDE) to 'ar_reg_stall/skid_buffer_reg[63]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[63]' (FDE) to 'ar_reg_stall/skid_buffer_reg[68]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[68]' (FDE) to 'ar_reg_stall/skid_buffer_reg[69]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[69]' (FDE) to 'ar_reg_stall/skid_buffer_reg[70]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[70]' (FDE) to 'ar_reg_stall/skid_buffer_reg[71]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[71]' (FDE) to 'ar_reg_stall/skid_buffer_reg[76]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[76]' (FDE) to 'ar_reg_stall/skid_buffer_reg[77]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[77]' (FDE) to 'ar_reg_stall/skid_buffer_reg[78]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[78]' (FDE) to 'ar_reg_stall/skid_buffer_reg[79]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[79]' (FDE) to 'ar_reg_stall/skid_buffer_reg[80]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[80]' (FDE) to 'ar_reg_stall/skid_buffer_reg[81]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[81]' (FDE) to 'ar_reg_stall/skid_buffer_reg[82]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[82]' (FDE) to 'ar_reg_stall/skid_buffer_reg[83]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[83]' (FDE) to 'ar_reg_stall/skid_buffer_reg[84]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[84]' (FDE) to 'ar_reg_stall/skid_buffer_reg[85]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[85]' (FDE) to 'ar_reg_stall/skid_buffer_reg[86]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[86]' (FDE) to 'ar_reg_stall/skid_buffer_reg[87]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[87]' (FDE) to 'ar_reg_stall/skid_buffer_reg[88]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[88]' (FDE) to 'ar_reg_stall/skid_buffer_reg[89]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[89]' (FDE) to 'ar_reg_stall/skid_buffer_reg[90]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[90]' (FDE) to 'ar_reg_stall/skid_buffer_reg[91]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[91]' (FDE) to 'ar_reg_stall/skid_buffer_reg[92]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[92]' (FDE) to 'ar_reg_stall/skid_buffer_reg[93]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[93]' (FDE) to 'ar_reg_stall/skid_buffer_reg[94]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[94]' (FDE) to 'ar_reg_stall/skid_buffer_reg[95]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[95]' (FDE) to 'ar_reg_stall/skid_buffer_reg[96]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[96]' (FDE) to 'ar_reg_stall/skid_buffer_reg[97]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[97]' (FDE) to 'ar_reg_stall/skid_buffer_reg[98]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[98]' (FDE) to 'ar_reg_stall/skid_buffer_reg[99]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[99]' (FDE) to 'ar_reg_stall/skid_buffer_reg[100]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[100]' (FDE) to 'ar_reg_stall/skid_buffer_reg[101]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[101]' (FDE) to 'ar_reg_stall/skid_buffer_reg[102]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[102]' (FDE) to 'ar_reg_stall/skid_buffer_reg[103]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[103]' (FDE) to 'ar_reg_stall/skid_buffer_reg[104]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[104]' (FDE) to 'ar_reg_stall/skid_buffer_reg[105]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[105]' (FDE) to 'ar_reg_stall/skid_buffer_reg[106]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[106]' (FDE) to 'ar_reg_stall/skid_buffer_reg[107]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[107]' (FDE) to 'ar_reg_stall/skid_buffer_reg[108]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[108]' (FDE) to 'ar_reg_stall/skid_buffer_reg[109]'
+INFO: [Synth 8-3886] merging instance 'ar_reg_stall/skid_buffer_reg[109]' (FDE) to 'ar_reg_stall/skid_buffer_reg[110]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ar_reg_stall/\skid_buffer_reg[1027] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aw_reg_stall/\skid_buffer_reg[1027] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aw_reg_stall/\skid_buffer_reg[1132] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ar_reg_stall/\skid_buffer_reg[1132] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ar_reg_stall/\m_vector_i_reg[1027] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aw_reg_stall/\m_vector_i_reg[1027] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aw_reg_stall/\m_vector_i_reg[1132] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ar_reg_stall/\m_vector_i_reg[1132] )
+INFO: [Synth 8-4471] merging register 'gen_endpoint.gen_r_singleorder.r_singleorder/gen_id_reg.s_rid_i_reg[0:0]' into 'gen_endpoint.gen_w_singleorder.w_singleorder/gen_id_reg.s_rid_i_reg[0:0]' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/2da8/hdl/sc_transaction_regulator_v1_0_vl_rfs.sv:216]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '33' to '2' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_w_cmd_reg.m_write_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4182]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '47' to '16' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+INFO: [Synth 8-3936] Found unconnected internal register 'exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg' and it is trimmed from '32' to '1' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0133/hdl/sc_exit_v1_0_vl_rfs.sv:4111]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg' and it is trimmed from '178' to '162' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/a8e4/hdl/sc_node_v1_0_vl_rfs.sv:615]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg' and it is trimmed from '178' to '162' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/a8e4/hdl/sc_node_v1_0_vl_rfs.sv:615]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg' and it is trimmed from '28' to '7' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/a8e4/hdl/sc_node_v1_0_vl_rfs.sv:615]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg' and it is trimmed from '74' to '54' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/a8e4/hdl/sc_node_v1_0_vl_rfs.sv:615]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg' and it is trimmed from '92' to '76' bits. [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/a8e4/hdl/sc_node_v1_0_vl_rfs.sv:615]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_r_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_r_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_r_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_r_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\switchboards/i_nodes/i_r_node/inst /\inst_mi_handler/inst_ingress/inst_incoming_count/is_zero_r_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_b_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_b_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_b_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_b_node/inst /p_0_out_inferred__11/\inst_mi_handler/inst_ingress/inst_incoming_count/count_r_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\switchboards/i_nodes/i_b_node/inst /\inst_mi_handler/inst_ingress/inst_incoming_count/is_zero_r_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m10_exit_pipeline/m10_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m10_exit_pipeline/m10_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m09_exit_pipeline/m09_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m09_exit_pipeline/m09_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m08_exit_pipeline/m08_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m08_exit_pipeline/m08_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m07_exit_pipeline/m07_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m07_exit_pipeline/m07_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m06_exit_pipeline/m06_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m06_exit_pipeline/m06_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m05_exit_pipeline/m05_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m05_exit_pipeline/m05_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m04_exit_pipeline/m04_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m04_exit_pipeline/m04_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m03_exit_pipeline/m03_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m03_exit_pipeline/m03_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m02_exit_pipeline/m02_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m01_exit_pipeline/m01_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m00_exit_pipeline/m00_exit/inst /\exit_inst/first_r_beat_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m00_exit_pipeline/m00_exit/inst /\exit_inst/gen_r_cmd_reg.m_read_cmd_mesg_i_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\switchboards/i_nodes/i_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_reg_fifo.inst_reg_fifo/gen_single_rank.data_reg[3] )
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/nolabel_line305/next_state0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1667]
+INFO: [Synth 8-4471] merging register 'riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_CSR_Priv_Mode_Wr_reg' into 'riscv_core_I/Base.Core/Use_DBUS.DAXI_Interface_I1/second_request_reg' [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/0725/hdl/microblaze_riscv_v1_0_vh_rfs.vhd:105046]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[0].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[1].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[2].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[3].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[4].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[5].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[6].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[7].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[8].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[9].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[10].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[11].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[12].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[13].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/PC_Module_I/Instruction_Prefetch_Mux[14].Gen_Instr_DFF/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_lr_instr_Inst/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/Serial_Dbg_Intf.dmstatus_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_3.mem_fpu_write_reg )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/dcsr_prv_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/dcsr_prv_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Data_Flow_I /csr_I/\status_reg[MPP][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/dcsr_reg_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Data_Flow_I /csr_I/\Has_MEM.WB_PC_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/sync_trig_out_0/Single_Synchronize.use_sync_reset.sync_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/ex_sleep_i_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/sleep_reset_mode_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Data_Flow_I /csr_I/\mtvec_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Data_Flow_I /csr_I/\mepc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Data_Flow_I /csr_I/\of_csr_priv_mode_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_5.Using_FPGA.Gen_Bits[4].MEM_EX_Result_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/of_pause_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_ea_instr_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_sc_instr_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_amo_instr_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_DBUS.DAXI_Interface_I1/second_request_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/ex_start_fpu_i_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/EX_ALU_Upper_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/ex_Sel_CSR_FPU_Res_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/ex_is_sfence_vma_instr_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_3.mem_mmu_load_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_uartlite_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_uartlite_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_uartlite_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_iic_0/U0/\X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_iic_0/U0/\X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_iic_0/U0/\X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_gpio_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_gpio_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_gpio_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_gpio_0/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_TIMER_SEC_0/\inst/CustomIP_TIMER_SEC_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_STEPPER_0/\inst/CustomIP_STEPPER_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_PWM_1/\inst/CustomIP_PWM_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_PWM_0/\inst/CustomIP_PWM_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_PHOTO_INT_C_0/\inst/CustomIP_PHOTO_INT_CNTR_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_EXTERNAL_LE_0/\inst/CustomIP_EXTERNAL_LED_CNTR_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_EXTERNAL_FN_0/\inst/CustomIP_EXTERNAL_FND_CNTR_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CustomIP_EXTERNAL_BT_0/\inst/CustomIP_EXTERNAL_BTN_CNTR_slave_lite_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_2.MEM_DataBus_SC_Instr_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/Has_MEM_4.wb_fpu_write_i_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/Serial_Dbg_Intf.dbg_sleep_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/Has_MEM_4.wb_mmu_load_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/Performance_Debug_Control.dbg_stop_i_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_5.Using_FPGA.Gen_Bits[5].MEM_EX_Result_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Use_Debug_Logic.Master_Core.Debug_Perf/saved_reset_mode_sleep_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/has_MEM_5.wb_exception_kind_i_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/active_wakeup_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_2.mem_databus_access_ea_i_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_3.mem_Write_DCache_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_riscv_0/U0/\riscv_core_I/Base.Core/Decode_I/has_MEM_5.wb_exception_kind_i_reg[5] )
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_sc_instr_Inst/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_amo_instr_Inst/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/Using_FPGA_2.ex_is_ea_instr_Inst/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_5.Using_FPGA.Gen_Bits[5].MEM_EX_Result_Inst/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (riscv_core_I/Base.Core/Decode_I/No_Short_Pipe_5.Using_FPGA.Gen_Bits[4].MEM_EX_Result_Inst/Using_FPGA.Native) is unused and will be removed from module riscv.
+INFO: [Synth 8-3332] Sequential element (U0/POR_FF_I) is unused and will be removed from module SoC_EV_BD_dlmb_v10_0.
+INFO: [Synth 8-3332] Sequential element (U0/POR_FF_I) is unused and will be removed from module SoC_EV_BD_ilmb_v10_0.
+WARNING: [Synth 8-3332] Sequential element (ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N) is unused and will be removed from module proc_sys_reset__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module proc_sys_reset__parameterized1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:56 ; elapsed = 00:02:14 . Memory (MB): peak = 4477.836 ; gain = 2721.355 ; free physical = 7797 ; free virtual = 17847
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++-------------------------------------------+----------------------------+---------------+----------------+
+|Module Name                                | RTL Object                 | Depth x Width | Implemented As | 
++-------------------------------------------+----------------------------+---------------+----------------+
+|microblaze_riscv_v1_0_5_Barrel_Shifter_gti | Barrel32.two_comp_table[0] | 32x5          | LUT            | 
++-------------------------------------------+----------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_riscv_0/U0/Reset' to pin 'proc_sys_reset_0/U0/FDRE_inst/Q'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:31 ; elapsed = 00:02:24 . Memory (MB): peak = 4477.836 ; gain = 2721.355 ; free physical = 9325 ; free virtual = 19421
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:40 ; elapsed = 00:02:34 . Memory (MB): peak = 4477.836 ; gain = 2721.355 ; free physical = 9345 ; free virtual = 19441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:42 ; elapsed = 00:02:41 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9039 ; free virtual = 19147
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5410] Found another clock driver \Use_JTAG_BSCAN.BUFG_JTAG_TCK/Using_FPGA.Native :TCK [/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.gen/sources_1/bd/SoC_EV_BD/ipshared/2c73/hdl/mdm_riscv_v1_0_vh_rfs.vhd:645]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:46 ; elapsed = 00:02:46 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9019 ; free virtual = 19173
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:46 ; elapsed = 00:02:46 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9019 ; free virtual = 19172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:47 ; elapsed = 00:02:47 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9020 ; free virtual = 19173
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:47 ; elapsed = 00:02:47 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9020 ; free virtual = 19173
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:47 ; elapsed = 00:02:47 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9020 ; free virtual = 19173
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:47 ; elapsed = 00:02:47 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9020 ; free virtual = 19173
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------------+-----------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name         | RTL Name                                                                                                                                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------------+-----------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|axi_uartlite        | UARTLITE_CORE_I/UARTLITE_RX_I/data_shift_reg[15]                                                                                        | 16     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|axi_uartlite        | UARTLITE_CORE_I/UARTLITE_TX_I/data_shift_reg[15]                                                                                        | 15     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|MDM_RISCV           | MDM_Core_I1/JTAG_CONTROL_I/dmi_reg[31]                                                                                                  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|MDM_RISCV           | MDM_Core_I1/JTAG_CONTROL_I/dmi_reg[3]                                                                                                   | 28     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|MDM_RISCV           | Use_JTAG_BSCAN.bscanid_reg[27]                                                                                                          | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|MDM_RISCV           | Use_JTAG_BSCAN.bscanid_reg[11]                                                                                                          | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|MDM_RISCV           | Use_JTAG_BSCAN.bscanid_reg[1]                                                                                                           | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|blk_mem_gen_v8_4_11 | inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[16].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[4] | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
++--------------------+-----------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+
+Dynamic Shift Register Report:
++------------+------------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name         | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+------------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | data_reg[15]     | 8      | 8          | 8      | 0       | 0      | 0      | 0      | 
+|dsrl__1     | PC_Buffer_reg[3] | 32     | 32         | 32     | 0       | 0      | 0      | 0      | 
++------------+------------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BSCANE2    |     1|
+|2     |BUFG       |     4|
+|3     |BUFGCE     |     2|
+|4     |CARRY4     |   219|
+|5     |LUT1       |   558|
+|6     |LUT2       |  1286|
+|7     |LUT3       |   642|
+|8     |LUT4       |   882|
+|9     |LUT5       |   791|
+|10    |LUT6       |  1864|
+|12    |MMCME2_ADV |     1|
+|13    |MUXCY_L    |   136|
+|14    |MUXF7      |   266|
+|15    |RAM32M     |    16|
+|16    |RAMB36E1   |    32|
+|17    |SRL16      |     2|
+|18    |SRL16E     |    90|
+|19    |SRLC32E    |     1|
+|20    |XORCY      |    92|
+|21    |FDCE       |   857|
+|22    |FDPE       |     6|
+|23    |FDR        |    25|
+|24    |FDRE       |  4625|
+|25    |FDS        |     1|
+|26    |FDSE       |   206|
+|27    |IBUF       |    11|
+|28    |IOBUF      |     2|
+|29    |OBUF       |    29|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:47 ; elapsed = 00:02:47 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 9020 ; free virtual = 19173
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 2407 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:11 ; elapsed = 00:02:13 . Memory (MB): peak = 4485.840 ; gain = 2665.293 ; free physical = 14153 ; free virtual = 24307
+Synthesis Optimization Complete : Time (s): cpu = 00:02:47 ; elapsed = 00:02:48 . Memory (MB): peak = 4485.840 ; gain = 2729.359 ; free physical = 14174 ; free virtual = 24310
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.31 . Memory (MB): peak = 4485.840 ; gain = 0.000 ; free physical = 14205 ; free virtual = 24340
+INFO: [Netlist 29-17] Analyzing 842 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 4529.941 ; gain = 0.000 ; free physical = 14204 ; free virtual = 24339
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 133 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 37 instances
+  BUFGCE_1 => BUFGCTRL: 2 instances
+  FDR => FDRE: 25 instances
+  FDS => FDSE: 1 instance 
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 48 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  SRL16 => SRL16E: 2 instances
+
+Synth Design complete | Checksum: 59e857d5
+INFO: [Common 17-83] Releasing license: Synthesis
+919 Infos, 323 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:54 ; elapsed = 00:02:55 . Memory (MB): peak = 4529.977 ; gain = 2981.531 ; free physical = 14204 ; free virtual = 24339
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 10252.160; main = 3639.914; forked = 6821.122
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 19022.090; main = 4529.945; forked = 14548.168
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4553.953 ; gain = 0.000 ; free physical = 14204 ; free virtual = 24340
+INFO: [Common 17-1381] The checkpoint '/home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/synth_1/SoC_EV_BD_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file SoC_EV_BD_wrapper_utilization_synth.rpt -pb SoC_EV_BD_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 27 12:29:05 2025...

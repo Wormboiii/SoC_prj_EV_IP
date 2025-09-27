@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date         : Sat Sep 27 12:17:46 2025
+| Host         : ThinkBook running 64-bit Ubuntu 24.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SoC_EV_BD_CustomIP_STEPPER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SoC_EV_BD_CustomIP_STEPPER_0_0 (user.org:user:CustomIP_STEPPER:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date         : Thu Sep 25 11:53:30 2025
+| Host         : ThinkBook running 64-bit Ubuntu 24.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SoC_EV_BD_CustomIP_STEPPER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SoC_EV_BD_CustomIP_STEPPER_0_0 (user.org:user:CustomIP_STEPPER:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date         : Thu Sep 25 11:30:10 2025
+| Host         : ThinkBook running 64-bit Ubuntu 24.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SoC_EV_BD_CustomIP_EXTERNAL_FN_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SoC_EV_BD_CustomIP_EXTERNAL_FN_0_0 (user.org:user:CustomIP_EXTERNAL_FND_CNTR:1.0) from (Rev. 2) to (Rev. 3)
+

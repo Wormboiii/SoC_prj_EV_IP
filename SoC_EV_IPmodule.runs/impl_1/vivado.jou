@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Sep 27 12:29:27 2025
+# Process ID         : 60950
+# Current directory  : /home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/impl_1
+# Command line       : vivado -log SoC_EV_BD_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SoC_EV_BD_wrapper.tcl -notrace
+# Log file           : /home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/impl_1/SoC_EV_BD_wrapper.vdi
+# Journal file       : /home/wonhyeok/SoC_EV_IPmodule/SoC_EV_IPmodule.runs/impl_1/vivado.jou
+# Running On         : ThinkBook
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 2307.685 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32125 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 36420 MB
+# Available Virtual  : 28950 MB
+#-----------------------------------------------------------
+source SoC_EV_BD_wrapper.tcl -notrace
